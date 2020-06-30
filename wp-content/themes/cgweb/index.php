@@ -11,7 +11,7 @@
         <meta property="og:type" content="blog">
         <meta property="og:url" content="">
         <meta property="og:image" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
         <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
         <!--[if lt IE 9]>
@@ -35,7 +35,7 @@
                     <header role="header">
 
                     </header>
-                    <nav class="navbar navbar-default">
+                    <nav role="navbar" class="navbar navbar-default">
                         <div class="container-fluid">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
@@ -88,21 +88,18 @@
                             </div><!-- /.navbar-collapse -->
                         </div><!-- /.container-fluid -->
                     </nav>
-                    <nav role="navbar">
-
-                    </nav>
 
                     <footer role="footer">
 
                     </footer>
                 </div>
-            </div>  
+            </div>
         </div>
 
         <!-- Add your site or application content here -->
         <script src="js/vendor/modernizr-3.11.2.min.js"></script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script> 
+        <script src="js/main.js"></script>
     </body>
 
 </html>
