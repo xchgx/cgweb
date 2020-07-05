@@ -64,7 +64,15 @@
       <div class="card bg-success"></div>
     </div>
     <div class="col-sm-4">
-      <div class="card bg-info"></div>
+      <div class="card bg-info">
+
+        <?php if ( is_active_sidebar( 'unique-sidebar-id' ) ) : ?>
+          <?php dynamic_sidebar( 'unique-sidebar-id' ); ?>
+        <?php else: ?>
+          //提示用户
+          //或者，显示一些默认的边栏效果
+        <?php endif; ?>
+      </div>
     </div>
   </div>
   <div class="row">

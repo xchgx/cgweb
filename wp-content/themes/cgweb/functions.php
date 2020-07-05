@@ -94,3 +94,37 @@ function create_bootstrap_menu( $theme_location ) {
 
   echo $menu_list;
 }
+
+
+/**
+ * 说明：
+ *  最新版本的wordpress引入了谷歌字体服务
+ *  但谷歌服务在中国并不稳定
+ *  导致网站打开的速度很慢
+ *  所以要去除谷歌字体服务
+ *  此代码可以直接使用，将代码复制到你的主题的functions.php文件中
+ *  注意事项#1：复制的时候，不需要复制<?php 和 ?>
+ *  注意事项#2：将复制的代码粘贴到你的funcions.php文件中，一定要在<?php 之间  ?>
+ */
+add_action( 'init', 'remove_open_sans' );        //在头部信息输出之前, 调用函数禁止加载
+function remove_open_sans( ) {
+  wp_deregister_style('open-sans');      //去除原名为open-sans的样式的加载
+  wp_register_style('open-sans', '');      //重新注册一个名字为open-sans的样式，值为空字符串
+  wp_enqueue_style('open-sans');        //将新的名为open-sans的样式插入队列
+}
+
+
+//如果你想开启文章信息和页面信息的缩略图功能，则使用以下代码：
+add_theme_support('post-thumbnails');
+
+//完整的开启侧边栏功能的代码是（可直接复制，根据需要修改参数值）：
+register_sidebar( array(
+  'name'						=> __( '侧边栏', 'theme_text_domain' ),
+  'id'								=> 'unique-sidebar-id',
+  'description'				=> '',
+  'class'						=> '',
+  'before_widget'			=> '<li id="%1$s" class="widget %2$s">',
+  'after_widget'			=> '</li>',
+  'before_title'				=> '<h2 class="widgettitle">',
+  'after_title'					=> '</h2>'
+) );
