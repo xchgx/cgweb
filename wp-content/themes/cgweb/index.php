@@ -5,6 +5,10 @@
   <div class="row">
     <div class="col-sm-12">
       <?php create_bootstrap_menu('headerNav');?>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
       <header role="header">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -49,7 +53,23 @@
         </div>
       </header>
 
-      <footer role="footer">
+    </div>
+  </div>
+  <div class="separator"></div>
+  <div class="row" role="content"> <!--内容主体-->
+    <div class="col-sm-4">
+      <div class="card bg-danger"></div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card bg-success"></div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card bg-info"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <footer role="footer" class="footer bg-primary">
 
       <?php
 //      create_bootstrap_menu('headerNav');
