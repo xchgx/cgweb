@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:v2.6" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="441845b8-4f25-4540-bcdf-fb2793cac2df" name="默认更改列表" comment="v2.6 添加缩略图、侧边栏小公举、删除谷歌字体">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/02/02ac94c1cfd68a5d7084770e81fe9baa0a101241e80ee1763516e5c2cd53d319.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/0e/0e91fe0c6173b8f17d299aa408e553ecb807bb36ef8a53fd622e44ef0dcb943d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/1b/1b0cc47e0c6f44064ae9b20e73e22e360deff73314d3c0d224e4968c10f6fb67.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/1b/1bb2e0fb3b176f0ee9026657ef7b78d927cb9e7b7374d12a79f145be180a7870.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/1f/1f8e68b5199f11102582302621bac4640e67ce7486d47cf92c59074f99c7812e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/24/24e17b3806d99a33f0432df3c0626e774e5504392745bb3cc48c714d0e18fb34.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/28/289ba531c8f178b074c35df0e1166332ad9f2711a94b5fb2c7cc694257330fbc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/2e/2e5e49716d92f31fb83e1dc1fbde8ef2fa0db3e5276037e70cd264afb8610974.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/2e/2ee429434ad57f812e7009ee72b23e612aeb38a92be05c75c5a33b68dda66315.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/2f/2f9320718d97bf8b9ffd6e3f51058778d8fb25414a1c1575547325aa7a135f9c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/30/3044f0334ff589a968035a52bc889c6958078c4881a5593316023d86acafdd71.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/31/31e9218a8f680f8dcd4991003a5529deca4405b1afb21b2289252f8aab945e9b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/3b/3b9d7660aa8a3ede72e7dde72b21071384327a7d4a6dcf2a469c6c31186d1f7a.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/41/41d0de15fb017002ebdfc382729a2570b5c40a55359d4332e7803bee042f7777.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/43/43704ddfba358c5cf69de7d8dc581374892f459581a2d9a549eb151b8c66da10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/46/46e3ec2689ec6b96be46fd37aec8f218e24d90a128d1de9fcc0e95aff2ab8e60.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/4c/4c39ef7e20678d8de6589537a9c3ad0d72f60fe74a94e9d8317d351fcc038194.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/4f/4f25eff1fd19e6edf8f46d768192b58c20407c9c2a144abe94b5a74f4d3effca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/55/55c13dfdeb40fd797990e6463906f726e562a538baa6a57c5c50fc4f808fd3d2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/5f/5fe10871b9929ab0b7244d4805656ef4d3bea458504d38274fef8795a1e517b1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/63/63b795b4aea65845afb1d0633e6e5ce93f0ed9c68b1f52dff2fdfb7b1541e668.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/69/69b6840965eeaf3a971bc75ca8fc3bacec89fd4cc3b0192b3857bba7184a1a6c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/6b/6b4b885dbb693334da1e3e99c9b5b67f3562649822f53d786440de45daf14e55.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/6c/6c19569c6fd36a87f5c7dfd3216fc7e0f7c02e596f0fb67e13e7a99f082e6618.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/6f/6f37b7031ac4588475870659a14e3dd60f801410e6427771ba321edacee8d658.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/72/72c75d1b1b0e699b49ca84b4e7c308b7fd13d9787c703c9df32a78b33bbeac1b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/7a/7a6de9c80fd7d27930e98b1f612dd34b5641dff6fe75f9c925badfc0946c41af.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/82/820601b2b91d0d29399332a15097d579ec4a03308ae558814d15b4bfa094bd16.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/83/832437419b8ebb875737722c1e040d52499fe463f7530fe9a9f0cb352f2ca677.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/88/88b0978126318f6dddc3aa278b382f7089c02808848bb2905d4a30e2c597a0dc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/8c/8c37fed897fe155cbe080cae6c0c0b6606bdae43618696dc90a4ada714b6655b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/8e/8e5accd6e695359419f19ec40f843499791b190dc6faaefa1ed7a272cb42abbc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/93/93df696f436839d5100d31ce53cf63671e53fa41340c56d6960b9d676b0b63c8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/96/968547367e2fbdb09ffa0c98885fa330c3f96c9c43857de90e9e0e169729e0a8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/9d/9d35c81cbab5891cc669c668437b731e74a74d50d4527146a5abaa66f78b67c0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/ba/baf23424b0e3a0139265f6dbf36ea105a325e5b3890917f6759990adf9a386a7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/c6/c691154fcbe93873b5902f3f3a489d30b15f6c8ab2717c6be5770aa478f846d4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/c7/c71d79865ddcb50dc41f59cd7b05bd1568626a9f6091e9229582916a4ea60e01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/f3/f32c84d7c2f5dc48c1ce2afb2853378ede0aac8c48cd726a3fba79c91a2b5071.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/f3/f3de06eec1dfbcc40f1bc92fb9094ea7be4483af347bee7ab95aa9b8f4aa31d1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpMyAdmin4.8.5/tmp/twig/ff/ffbd2f5cf67747a0c0687572617dc0dbf45a5ad24cbee963af80692798ca9b5c.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/phpMyAdmin4.8.5/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v2.5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpmyadmin/sql-parser" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpmyadmin/motranslator" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/samyoul/u2f-php-server" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/composer" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/phpMyAdmin4.8.5/vendor/phpmyadmin/shapefile" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1e2a3UCkkNEERXZlF17zuLmZ3bJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\inc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW" />
+      <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\less" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="441845b8-4f25-4540-bcdf-fb2793cac2df" name="默认更改列表" comment="" />
+      <created>1593521942221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593521942221</updated>
+      <workItem from="1593521945945" duration="3375000" />
+      <workItem from="1593528488476" duration="2310000" />
+      <workItem from="1593562490300" duration="22000" />
+      <workItem from="1593600130699" duration="7429000" />
+      <workItem from="1593620418549" duration="110000" />
+      <workItem from="1593781002150" duration="3907000" />
+      <workItem from="1593822853081" duration="17915000" />
+      <workItem from="1593926419229" duration="13285000" />
+      <workItem from="1594032594353" duration="2944000" />
+      <workItem from="1594116988947" duration="1809000" />
+      <workItem from="1594205585586" duration="1743000" />
+      <workItem from="1594269565386" duration="1035000" />
+    </task>
+    <task id="LOCAL-00001" summary="v2.0 启用自定义主题，并开启菜单功能(functions.php)">
+      <created>1593530722864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593530722864</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v2.2 加入传送带">
+      <created>1593620455454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593620455454</updated>
+    </task>
+    <task id="LOCAL-00003" summary="v2.3 调整传送带指示灯位置">
+      <created>1593790773180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593790773180</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v2.4 菜单自定义，采用方法实现，而不是类的继承。用自定义的方法容易灵活控制标签。">
+      <created>1593871041497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593871041497</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v2.5 完成基本布局上中下布局，从最简开始。">
+      <created>1593934393427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593934393427</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v2.6 添加缩略图、侧边栏小公举、删除谷歌字体">
+      <created>1593953590492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593953590492</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="v2.6" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="v2.0 启用自定义主题，并开启菜单功能(functions.php)" />
+    <MESSAGE value="v2.2 加入传送带" />
+    <MESSAGE value="v2.3 调整传送带指示灯位置" />
+    <MESSAGE value="v2.4 菜单自定义，采用方法实现，而不是类的继承。用自定义的方法容易灵活控制标签。" />
+    <MESSAGE value="v2.5 完成基本布局上中下布局，从最简开始。" />
+    <MESSAGE value="v2.6 添加缩略图、侧边栏小公举、删除谷歌字体" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.6 添加缩略图、侧边栏小公举、删除谷歌字体" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="790" y="443" key="#WordPress" timestamp="1593529221927">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="443" key="#WordPress/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1593529221927" />
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594269801823">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594269801823" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1594269813090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594269813090" />
+    <state x="776" y="442" key="NewPhpFileDialog" timestamp="1593530482827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1593530482827" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1593953618441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1593953618441" />
+    <state x="721" y="231" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593930651295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="231" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1593930651295" />
+    <state x="625" y="306" key="git4idea.merge.GitPullDialog" timestamp="1594033504903">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="306" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594033504903" />
+    <state x="709" y="418" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594033484688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="418" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594033484688" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>D:\phpstudy_pro\WWW</wordpressPath>
+  </component>
+</project>
