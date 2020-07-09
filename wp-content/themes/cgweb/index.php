@@ -57,82 +57,98 @@
   </div>
   <div class="separator"></div>
   <div class="row" role="content"> <!--内容主体-->
-    <div class="col-sm-4">
-      <div class="card bg-danger"></div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card bg-success"></div>
-    </div>
-    <div class="col-sm-4">
-      <div class="card bg-info">
 
-        <?php if ( is_active_sidebar( 'unique-sidebar-id' ) ) : ?>
-          <?php dynamic_sidebar( 'unique-sidebar-id' ); ?>
-        <?php else: ?>
-          //提示用户
-          //或者，显示一些默认的边栏效果
-        <?php endif; ?>
+    <?php $my_query = new WP_Query(array(
+      'category_name'=>'tools',
+      'posts_per_page'=>3
+    ))
+    ?>
+    <?php if ( $my_query->have_posts() ) : while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+      <div class="col-sm-4">
+        <div class="card outer-border">
+          <div class="imgpanel">
+            <?php if ( has_post_thumbnail() ) : ?>
+  <!--            --><?php //the_post_thumbnail( 'thumbnail' ); ?>
+            <img src="<?php the_post_thumbnail_url('full')?>" class="img-responsive">
+            <?php else: ?>
+              这里应该有一张美美的图片
+            <?php endif; ?>
+            </div>
+          <h3><?php the_title(); ?></h3>
+        </div>
       </div>
-    </div>
+    <?php endwhile; ?>
+    <?php endif; ?>
+<!--    <div class="col-sm-4">-->
+<!--      <div class="card bg-info">-->
+<!---->
+<!--        --><?php //if ( is_active_sidebar( 'unique-sidebar-id' ) ) : ?>
+<!--          --><?php //dynamic_sidebar( 'unique-sidebar-id' ); ?>
+<!--        --><?php //else: ?>
+<!--          //提示用户-->
+<!--          //或者，显示一些默认的边栏效果-->
+<!--        --><?php //endif; ?>
+<!--      </div>-->
+<!--    </div>-->
   </div>
   <div class="row">
     <div class="col-sm-12">
       <footer role="footer" class="footer bg-primary">
 
-      <?php
-//      create_bootstrap_menu('headerNav');
+        <?php
+        //      create_bootstrap_menu('headerNav');
 
-      //获取创建的所有菜单
-//      $menus = wp_get_nav_menus();//(array('hide_empty'=>false, 'orderby'=> 'none'));
-////      var_dump($menus);
-////      echo '<hr>';
-//      //获取所有注册的菜单位置
-//      $registerMenus = get_nav_menu_locations();
-////      var_dump($registerMenus);
-////      echo '<hr>';
-//
-//      $menu_items = wp_get_nav_menu_items( $registerMenus[ 'headerNav' ] );
-//      foreach ($menu_items as $item){
-//        $title = $item->title;//菜单项名称
-//        $redirect = $item->url;//菜单项的固定链接
-//        echo $title;
-//        echo ",";
-//        echo $redirect;
-//        echo "<hr>";
-//        var_dump($item);
-//        echo "<hr>";
-//      }
+        //获取创建的所有菜单
+        //      $menus = wp_get_nav_menus();//(array('hide_empty'=>false, 'orderby'=> 'none'));
+        ////      var_dump($menus);
+        ////      echo '<hr>';
+        //      //获取所有注册的菜单位置
+        //      $registerMenus = get_nav_menu_locations();
+        ////      var_dump($registerMenus);
+        ////      echo '<hr>';
+        //
+        //      $menu_items = wp_get_nav_menu_items( $registerMenus[ 'headerNav' ] );
+        //      foreach ($menu_items as $item){
+        //        $title = $item->title;//菜单项名称
+        //        $redirect = $item->url;//菜单项的固定链接
+        //        echo $title;
+        //        echo ",";
+        //        echo $redirect;
+        //        echo "<hr>";
+        //        var_dump($item);
+        //        echo "<hr>";
+        //      }
 
-//      //primary-menu是我们希望选择的菜单位置的ID
-//      $location_id = 'headerNav';//functions.php中定义的英文名
-//      if(isset($registerMenus[$location_id])){
-//        //如果是我们要找的菜单位置
-//        foreach ($menus as $menu){
-//          //如果menu的term_id 与该位置上分配的菜单term_id相同// 说明是我们要找的菜单
-//          if ( $menu->term_id == $registerMenus[ $location_id ] ) {
-//            //获取该菜单所有的菜单项
-//            $menu_items = wp_get_nav_menu_items( $menu->term_id );
-//            //获取当前网站的地址，我们要找的第一项不能是网站的地址
-//            $blog_url=get_bloginfo('url');
-//            foreach ($menu_items as $item){
-//              $title = $item->title;//菜单项名称
-//              $redirect = $item->url;//菜单项的固定链接
-//              echo $title;
-//              echo ",";
-//              echo $redirect;
-//              echo "<hr>";
-//              var_dump($item);
-//              echo "<hr>";
-////              //如果该菜单项地址不是网站地址，返回该地址，完成查询。
-////              if ( trim( $redirect, '/' ) != $blog_url ) {
-////                break;
-////              }
-//            }
-//          }
-//        }
-//      }
+        //      //primary-menu是我们希望选择的菜单位置的ID
+        //      $location_id = 'headerNav';//functions.php中定义的英文名
+        //      if(isset($registerMenus[$location_id])){
+        //        //如果是我们要找的菜单位置
+        //        foreach ($menus as $menu){
+        //          //如果menu的term_id 与该位置上分配的菜单term_id相同// 说明是我们要找的菜单
+        //          if ( $menu->term_id == $registerMenus[ $location_id ] ) {
+        //            //获取该菜单所有的菜单项
+        //            $menu_items = wp_get_nav_menu_items( $menu->term_id );
+        //            //获取当前网站的地址，我们要找的第一项不能是网站的地址
+        //            $blog_url=get_bloginfo('url');
+        //            foreach ($menu_items as $item){
+        //              $title = $item->title;//菜单项名称
+        //              $redirect = $item->url;//菜单项的固定链接
+        //              echo $title;
+        //              echo ",";
+        //              echo $redirect;
+        //              echo "<hr>";
+        //              var_dump($item);
+        //              echo "<hr>";
+        ////              //如果该菜单项地址不是网站地址，返回该地址，完成查询。
+        ////              if ( trim( $redirect, '/' ) != $blog_url ) {
+        ////                break;
+        ////              }
+        //            }
+        //          }
+        //        }
+        //      }
 
-      ?>
+        ?>
       </footer>
 
     </div>
