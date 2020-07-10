@@ -28,21 +28,45 @@
 }
 .footer{
   margin-top: 12px;
-  height: 200px;
+  //min-height: 100px;
+  padding: 10px;
   ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    //text-align: center;
     li{
-      min-width: 200px;
-      width: 25%;
-      float: left;
+      //min-width: 200px;
+      //width: 25%;
+      //margin: 5px 10px;
+      //margin-top: 10px;
+      //float: left;
       a{
         color: whitesmoke;
+        font-size: 16px;
       }
-      ul>li{
-        float: none;
+      ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        > li {
+          float: none;
+          margin-top: 0px;
+
+          a {
+            font-size: 12px;
+          }
+        }
       }
     }
   }
+}
+.address{
+  color: white;
+  text-align: center;
 }

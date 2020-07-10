@@ -9,8 +9,7 @@
   </div>
   <div class="row">
     <div class="col-sm-12">
-      <?php get_template_part('carousel');?>
-
+      <h2></h2>
     </div>
   </div>
   <div class="separator"></div>
