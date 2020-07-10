@@ -94,7 +94,7 @@
   <div class="row">
     <div class="col-sm-12">
       <footer role="footer" class="footer bg-primary">
-
+          <?php wp_nav_menu(array('theme_location'=>'footerNav'))?>
         <?php
         //      create_bootstrap_menu('headerNav');
 

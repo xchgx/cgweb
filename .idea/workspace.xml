@@ -25,7 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="441845b8-4f25-4540-bcdf-fb2793cac2df" name="默认更改列表" comment="v2.7 后台添加3篇文章。" />
+    <list default="true" id="441845b8-4f25-4540-bcdf-fb2793cac2df" name="默认更改列表" comment="v2.7 后台添加3篇文章。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/less/_custom.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/less/_custom.less" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,12 +101,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\inc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\phpstudy_pro\WWW" />
       <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\less" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\inc" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -128,6 +133,7 @@
       <workItem from="1594269565386" duration="1176000" />
       <workItem from="1594290806549" duration="5687000" />
       <workItem from="1594338595680" duration="605000" />
+      <workItem from="1594343493968" duration="1764000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0 启用自定义主题，并开启菜单功能(functions.php)">
       <created>1593530722864</created>
@@ -185,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594338622287</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="v2.7 后台添加3篇文章。">
+      <created>1594343793801</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594343793801</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +256,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1593530482827" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594338638965">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594343809081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594338638965" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594343809081" />
     <state x="721" y="231" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593930651295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
