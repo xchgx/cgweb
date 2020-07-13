@@ -3,6 +3,6 @@
       <?php wp_nav_menu(array('theme_location'=>'footerNav'))?>
     </footer>
     <footer class="address bg-primary">
-      湖北省武汉市洪山区民族大道56号 Q:17902055
+      湖北省武汉市洪山区民族大道56号 Email: 17902055@qq.com
     </footer>
 

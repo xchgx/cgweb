@@ -19,23 +19,22 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/v2.8" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:v2.9" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="441845b8-4f25-4540-bcdf-fb2793cac2df" name="默认更改列表" comment="master v2.8.1 切换到master分支后导致无法合并，现在重新提交master">
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/carousel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/less/importjs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/single.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/tools.php" afterDir="false" />
+    <list default="true" id="441845b8-4f25-4540-bcdf-fb2793cac2df" name="默认更改列表" comment="v2.9 按功能切割成不同php文件，通过get_template_part()导入，新增了single.php文章模板页">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/less/_custom.less" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/less/_custom.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/less/importjs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/importjs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cgweb/tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cgweb/tools.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v2.6" />
+        <entry key="$PROJECT_DIR$" value="v2.8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,13 +106,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\inc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb" />
       <recent name="D:\phpstudy_pro\WWW" />
       <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\less" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb" />
+      <recent name="D:\phpstudy_pro\WWW\wp-content\themes\cgweb\inc" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -141,7 +141,10 @@
       <workItem from="1594290806549" duration="5687000" />
       <workItem from="1594338595680" duration="605000" />
       <workItem from="1594343493968" duration="1764000" />
-      <workItem from="1594365457072" duration="5927000" />
+      <workItem from="1594365457072" duration="7195000" />
+      <workItem from="1594428923423" duration="8928000" />
+      <workItem from="1594525280837" duration="4737000" />
+      <workItem from="1594598783614" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0 启用自定义主题，并开启菜单功能(functions.php)">
       <created>1593530722864</created>
@@ -206,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594343793801</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="v2.9 按功能切割成不同php文件，通过get_template_part()导入，新增了single.php文章模板页">
+      <created>1594380308759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594380308759</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +233,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/v2.8" />
+                        <option value="v2.9" />
                       </list>
                     </value>
                   </entry>
@@ -245,7 +255,8 @@
     <MESSAGE value="v2.5 完成基本布局上中下布局，从最简开始。" />
     <MESSAGE value="v2.6 添加缩略图、侧边栏小公举、删除谷歌字体" />
     <MESSAGE value="v2.7 后台添加3篇文章。" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.7 后台添加3篇文章。" />
+    <MESSAGE value="v2.9 按功能切割成不同php文件，通过get_template_part()导入，新增了single.php文章模板页" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.9 按功能切割成不同php文件，通过get_template_part()导入，新增了single.php文章模板页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="790" y="443" key="#WordPress" timestamp="1593529221927">
@@ -264,10 +275,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="442" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594380044029" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594343809081">
+    <state x="779" y="220" key="RollbackChangesDialog" timestamp="1594526618810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594343809081" />
+    <state x="779" y="220" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1366.768@0.0.1920.1040" timestamp="1594526618810" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594380316708">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.900@0.0.1920.1040" timestamp="1594380316708" />
     <state x="721" y="231" key="git4idea.branch.GitSmartOperationDialog" timestamp="1593930651295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
